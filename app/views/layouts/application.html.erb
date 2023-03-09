@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+    <title>Sistema de Inventario CDC </title>
+<link rel="icon" type="images/logo.png"
+        href="http://www.itoaxaca.edu.mx/themes/tecoaxaca/assets/images/main/tecnmicono.ico"
+        nonce="VOPVPfCnyGN7WVqCft5YIbPf1vvU31E2">
+    <link href="http://www.itoaxaca.edu.mx/combine/db925c58ba962b43e74af9b3d5cebb5a-1662670895" rel="stylesheet"
+        nonce="VOPVPfCnyGN7WVqCft5YIbPf1vvU31E2">
+
+    <script type="text/javascript" async=""
+        src="http://stats.elevenware.mx/modules/base/js/owa.tracker-combined-min.js"></script>
+    <script src="https://connect.facebook.net/es_ES/sdk.js?hash=799c07a533bc50a3eb7e8c30b5703aba" async=""
+        crossorigin="anonymous"></script>
+    <script src="http://www.itoaxaca.edu.mx/themes/tecoaxaca/assets/vendor/jquery-3.3.1.min.js"
+        nonce="VOPVPfCnyGN7WVqCft5YIbPf1vvU31E2"></script>
+
+    <link href="http://www.itoaxaca.edu.mx/combine/1f8602ae2f8bab8da4bea78eac698888-1662741360" rel="stylesheet"
+        nonce="VOPVPfCnyGN7WVqCft5YIbPf1vvU31E2">
+    <link rel="preconnect" href="//cdn-h4.occ.com.mx">
+    <link rel="dns-prefetch" href="//cdn-h4.occ.com.mx">
+    <link rel="preload" href="//cdn-h4.occ.com.mx/fonts/hkgrotesk-semibold.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="//cdn-h4.occ.com.mx/fonts/hkgrotesk-regular.woff" as="font" type="font/woff">
+    <link rel="preload stylesheet" href="//cdn-h4.occ.com.mx/fonts/stylesheet.css" as="style" type="text/css">
+    <script charset="utf-8"
+        src="https://platform.twitter.com/js/horizon_timeline.4836f7a62ef55f5880337b3b6602854f.js"></script>
+    <style type="text/css"
+        data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">
+        
+    </style>
+
+    <script type='text/javascript' src=''></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript'
+        src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+
+
+</head>
+
+<body>
+
+
+<div class="u-noPaddingContainer contenedorGobierno " style="z-index:1000;">
+        <div class="row container-cabecera">
+            <div class="no-gutters" style="margin-left: 0px; margin-right: 0px;">
+                <div style="max-width:60%" align="center">
+                    <div class="align-items-start d-inline-block ipnLogo-enlace">
+                        
+                        
+                        <a href="/" style="z-index:0">
+                            <embed style="width:17%;height:auto; min-width:50px"
+                                src="http://www.itoaxaca.edu.mx/themes/tecoaxaca/assets/images/main/pleca_tecnm.jpg"
+                                alt="" class="plecaTECNM">
+                        </a>
+                        <a style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">SISTEMA DE INVENTARIOS CENTRO DE COMPUTO
+                        
+                        </a>
+                        <a href="/" style="z-index:0">
+                            <embed style="width:8%;height:auto; min-width:50px"
+                                src="http://www.oaxaca.tecnm.mx/themes/tecoaxaca/assets/images/main/ito.png">
+                        </a>
+                        
+                        <a href="https://it.sgwebcualli.com/Oaxaca/Inicio/tablero/informacion_importante/"
+                            style="z-index:0">
+                            <embed style="width:9%;height:auto; min-width:50px"
+                                src="http://www.oaxaca.tecnm.mx/themes/tecoaxaca/assets/images/main/gestion_c.png">
+                        </a>
+                      
+
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+</div>
+    <section class="menu cid-rD7NmT2EL6" id="menu2-0">
+        <nav id="menu-principal"
+            class="navbar beta-menu navbar-inverse sub-navbar navbar-dropdown align-items-center navbar-toggleable-sm"
+            style="background: rgba(27, 57, 106, 0.98); margin-bottom: 0px; font-size: smaller;">
+            <div class="navbar-header">
+                <button style="z-index:4000" class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="hamburger">
+                        <span style="border: 1px solid #fff; box-shadow: 0px 0px 2px 2px #000;"></span>&ZeroWidthSpace;
+                        <span style="border: 1px solid #fff; box-shadow: 0px 0px 2px 2px #000;"></span>&ZeroWidthSpace;
+                        <span style="border: 1px solid #fff; box-shadow: 0px 0px 2px 2px #000;"></span>&ZeroWidthSpace;
+                        <span style="border: 1px solid #fff; box-shadow: 0px 0px 2px 2px #000;"></span>&ZeroWidthSpace;
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent"
+                    style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+                    <ul class="navbar-nav" data-app-modern-menu="true">
+                        <li class="nav-item" style="padding-top: 5px;">
+                            <a class=" link text-black" href="/">
+                                <span class="icon-home" title="Inicio" aria-hidden="true"></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav_link link text-black dropdown-toggle" style="outline-style:none"
+                                data-toggle="dropdown-submenu" aria-haspopup="true" aria-expanded="false">
+                                Usuarios
+                            </a>
+                           
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="/equipos/new" class="nav_link link text-black dropdown-toggle" style="outline-style:none"
+                                data-toggle="dropdown-submenu" aria-expanded="false">
+                                Equipos
+                            </a>
+                
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a href="/licencia/new" class="nav_link link text-black dropdown-toggle" style="outline-style:none"
+                            data-toggle="dropdown-submenu" aria-expanded="false">
+                            Licencias
+                        </a>
+            
+                    </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="/departamentos/new" class="nav_link link text-black dropdown-toggle" style="outline-style:none"
+                                data-toggle="dropdown-submenu" aria-expanded="false">
+                                Departamentos
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="text-black dropdown-item"
+                                    href="http://www.oaxaca.tecnm.mx/posgrado">Posgrado</a>
+                                <a class="text-black dropdown-item" href="/electronica">Ingeniería Electrónica</a>
+                                <a class="text-black dropdown-item" href="/civil">Ingeniería Civil</a>
+                                <a class="text-black dropdown-item" href="/mecanica">Ingeniería Mecánica</a>
+                                <a class="text-black dropdown-item" href="/industrial">Ingeniería Industrial</a>
+                                <a class="text-black dropdown-item" href="/quimica">Ingeniería Química</a>
+                                <a class="text-black dropdown-item" href="/electrica">Ingeniería Electrica</a>
+                                <a class="text-black dropdown-item" href="/gestion">Ingeniería en Gestión
+                                    Empresarial</a>
+                                <a class="text-black dropdown-item" href="/sistemas">Ingeniería en Sis.
+                                    Computacionales</a>
+                                <a class="text-black dropdown-item" href="/administracion">Licenciatura en
+                                    Administración</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="/materiales/index" class="nav_link link text-black dropdown-toggle" style="outline-style:none"
+                                data-toggle="dropdown-submenu" aria-expanded="false">
+                                Materiales
+                            </a>
+                           
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="/inventario/index" class="nav_link link text-black dropdown-toggle" style="outline-style:none"
+                                data-toggle="dropdown-submenu" aria-expanded="false">
+                                Inventario
+                            </a>
+                            
+
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav_link link text-black dropdown-toggle" style="outline-style:none"
+                                data-toggle="dropdown-submenu" aria-expanded="false">
+                                Mantenimiento
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="text-black dropdown-item" target="_blank"
+                                    href="/mantenimiento/preventivo">Programar Mantenimiento preventivo</a>
+                                
+                        
+                            </div>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                        <a href="#" class="nav_link link text-black dropdown-toggle" style="outline-style:none"
+                            data-toggle="dropdown-submenu" aria-haspopup="true" aria-expanded="false">
+                            Sesion
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="text-black dropdown-item" href="/it-oaxaca">Cerrar sesion</a>
+                            <a class="text-black dropdown-item" href="/directorio">Directorio</a>
+                        </div>
+                    </li>
+
+
+
+
+                        <form class="d-flex" role="search" >
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                      
+
+                        
+            
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+        </nav>
+    </section>
+
+    <div class="container-fluid">
+              
+          <%= yield%>
+          </div>
+
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/js/all.min.js"
+          nonce="TTuOFjRrHczQQwcuuiZFzqD1yLREHUvF"></script>
+      <script src="http://www.itoaxaca.edu.mx/combine/8adb74e9026f889a8489cb0dc5848b16-1662671340"
+          nonce="TTuOFjRrHczQQwcuuiZFzqD1yLREHUvF">
+          </script>
+      <!-- Start Open Web Analytics Tracker -->
+      <script type="text/javascript" nonce="TTuOFjRrHczQQwcuuiZFzqD1yLREHUvF">
+          //<![CDATA[
+          var owa_baseUrl = 'http://stats.elevenware.mx/';
+          var owa_cmds = owa_cmds || [];
+          owa_cmds.push(['setSiteId', '09f71ea869cfb5abc4bfc027bf02cb4d']);
+          owa_cmds.push(['trackPageView']);
+          owa_cmds.push(['trackClicks']);
+          owa_cmds.push(['trackDomStream']);
+  
+          (function () {
+              var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
+              owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl);
+              _owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
+              var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
+          }());
+  //]]>
+      </script>
+      <!-- End Open Web Analytics Code -->
+  
+      <iframe scrolling="no" frameborder="0" allowtransparency="true"
+          src="https://platform.twitter.com/widgets/widget_iframe.c4bdc17e77719578b594d5555bee90db.html?origin=http%3A%2F%2Fwww.itoaxaca.edu.mx"
+          title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no"
+          frameborder="0" allowtransparency="true" allowfullscreen="true"
+          style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;"
+          title="Twitter analytics iframe"></iframe>
+  
+  
+
+
+
+
+
+
+          </body>
+</html>
